@@ -1,4 +1,4 @@
-name: Create Frontend Release PR
+name: Frontend Release PR
 
 on:
   workflow_dispatch:
@@ -13,9 +13,9 @@ permissions:
   pull-requests: write
 
 jobs:
-  create-frontend-release:
+  frontend-release-pr:
     concurrency:
-      group: create-frontend-release-${{ github.ref }}
+      group: frontend-release-pr-${{ github.ref }}
       cancel-in-progress: true
 
     name: generate frontend changelog
