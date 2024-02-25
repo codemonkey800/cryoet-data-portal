@@ -115,7 +115,7 @@ jobs:
         run: |
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git tag -a ${{ fromJson(steps.get-tag-name.outputs.result).tag }} -m "Release v${{ fromJson(steps.get-tag-name.outputs.result).version }}"
+          git tag -a ${{ fromJson(steps.get-tag-name.outputs.result).tag }} -m "v${{ fromJson(needs.find-frontend-release-pr.outputs.pr).body }}"
           git push origin ${{ fromJson(steps.get-tag-name.outputs.result).tag }}
 
       - name: update label for release PR
