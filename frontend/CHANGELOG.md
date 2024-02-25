@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/codemonkey800/cryoet-data-portal/compare/cryoet-data-portal-web-v1.1.0...cryoet-data-portal-web-v1.2.0) (2024-02-25)
+
+
+### ✨ Features
+
+* feat 2 ([92adb7e](https://github.com/codemonkey800/cryoet-data-portal/commit/92adb7ea8a10d6a1c1de202c3fecb825b9482cce))
+
 ## [1.1.0](https://github.com/codemonkey800/cryoet-data-portal/compare/cryoet-data-portal-web-v1.0.3...cryoet-data-portal-web-v1.1.0) (2024-02-25)
 
 
